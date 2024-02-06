@@ -17,7 +17,7 @@ void loop() {
   if(knobValue > 400){
     digitalWrite(LED, HIGH);  // turn the LED on (HIGH is the voltage level)                  // wait for a second
   }
-  if(knobValue <= 500){
+  if(knobValue <= 400){
     digitalWrite(LED, LOW);  // turn the LED on (HIGH is the voltage level)                      // wait for a second
   }
   digitalWrite(LED_BUILTIN, digitalRead((5)));
